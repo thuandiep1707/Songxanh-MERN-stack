@@ -1,0 +1,21 @@
+{
+  "name": "songxanh-be",
+  "version": "1.0.0",
+  "description": "songxanh BE",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js"
+  },
+  "author": "thuandiep",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "eslint": "^9.5.0",
+    "express": "^4.19.2",
+    "mongobd": "^0.0.1-security.0"
+  }
+}
