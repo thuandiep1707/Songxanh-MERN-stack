@@ -1,2 +1,3 @@
 # Mayxanh-BE
-phần backend của mạng xã hội Mây Xanh
+Mạng xã hội Sóng xanh
+Công nghệ sử dụng: ExpressJs, ReactJs, MongoDB, NodeJs
