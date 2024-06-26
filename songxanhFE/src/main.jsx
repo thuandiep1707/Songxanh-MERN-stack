@@ -7,5 +7,5 @@ import svg1 from './assets/svg-icons/home.svg'
 import './assets/styles/index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <div> Hello world </div>
+    <div className='text-3xl border-b-2' > Hello world </div>
 )
