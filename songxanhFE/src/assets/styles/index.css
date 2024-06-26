@@ -22,7 +22,7 @@ body {
   background-color: #F0F2F5;
 }
 
-.hover-blue div svg path:hover{
+.header-link div div svg path{
   transition: .2s all ease;
   fill: #0088FF;
 }
