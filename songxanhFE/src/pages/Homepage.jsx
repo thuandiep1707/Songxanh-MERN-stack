@@ -55,7 +55,9 @@ export default function Homepage() {
               </div>
             </div>
         </aside>
-
+        <section className='flex flex-col gap-[10px] grow bg-white m-[10px] p-[20px] rounded-[6px] basic-shadow'>
+        </section>
+        <section className="bg-white w-[350px] m-[10px] p-[20px] rounded-[6px] basic-shadow"></section>
     </div>
   )
 }
