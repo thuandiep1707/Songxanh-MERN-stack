@@ -2,15 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  font-family: Quicksand, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
@@ -26,6 +22,6 @@ body {
   transition: .2s all ease;
   fill: #0088FF;
 }
-.pointer{
-  cursor: pointer;
+.basic-shadow{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 4px;
 }

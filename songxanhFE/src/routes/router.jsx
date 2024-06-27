@@ -1,7 +1,10 @@
+
+import  Homepage from '../pages/Homepage.jsx'
+
 export const routerList = [
     {
         path: "/",
-        element: <div>Hello world</div>
+        element: <Homepage />
     },
     {
         path: "/friend",

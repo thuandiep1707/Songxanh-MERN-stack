@@ -37,9 +37,9 @@ const Header = () => {
         }
     ]
     return (
-        <header className="flex items-center justify-center w-[100vw] h-[60px] bg-[#ffffff]" >
-            <div className="flex justify-between w-[1200px] h-full">
-                <div className="flex items-center justify-center h-full gap-[10px] relative w-[300px]">
+        <header className="flex items-center justify-center sticky top-0 left-0 w-[100vw] h-[60px] bg-[#ffffff] mb-[10px]" >
+            <div className="flex justify-between w-[1420px] h-full">
+                <div className="flex items-center justify-center h-full gap-[10px] relative w-[350px]">
                     <ReactSVG src={logo} onClick={() => {nav("/"); setDefaultPath('/')}} className="cursor-pointer" />
                     <input type="text" name="search" id="search" placeholder="Tìm kiếm thông tin" className="border-none outline-none flex-1 h-[40px] bg-[#F0F2F5] rounded-[20px] pl-[42px] text-[10px] font-semibold text-[#00000099]" />
                     <ReactSVG src={search} className="absolute top-[22px] left-[70px]" />
@@ -55,7 +55,7 @@ const Header = () => {
                         })
                     }
                 </div>
-                <div className="flex items-center justify-end w-[300px] h-full">
+                <div className="flex items-center justify-end w-[350px] h-full">
                     <Link to={'/setting'} onClick={() => setDefaultPath('/setting')} className={`flex items-center justify-center w-[40px] h-[40px] bg-[#F0F2F5] ${ defaultPath == '/setting' ? "rounded-none border-b-[3px] border-[#0088FF] bg-[#FFFFFF] header-link" : "rounded-[50%] "}`}>
                         <ReactSVG src={setting} />
                     </Link>
