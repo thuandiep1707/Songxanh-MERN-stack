@@ -7,7 +7,7 @@ export const routerList = [
         element: <Homepage />
     },
     {
-        path: "/friend",
+        path: "/friend/:id",
         element: <div>Hello world</div>
     },
     {
@@ -19,11 +19,15 @@ export const routerList = [
         element: <div>Hello world</div>
     },
     {
-        path: "/message",
+        path: "/message/:id",
         element: <div>Hello world</div>
     },
     {
         path: "/setting",
+        element: <div>Hello world</div>
+    },
+    {
+        path: "/post/:id",
         element: <div>Hello world</div>
     }
 ]
