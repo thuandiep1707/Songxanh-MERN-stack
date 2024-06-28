@@ -18,7 +18,7 @@ export default function Homepage() {
         <aside className=" bg-white w-[350px] m-[10px] p-[20px] rounded-[6px] basic-shadow">
             <div className='flex items-center justify-between mb-[10px]'>
                 <p className="text-[24px] font-bold">Home</p>
-                <ReactSVG src={dot3} />
+                <ReactSVG src={dot3} className='cursor-pointer'/>
             </div>
             <div className="">
               <div className="flex items-center justify-between gap-[13px] p-[6px] cursor-pointer rounded-[6px] hover:bg-[#F0F2F5]">
