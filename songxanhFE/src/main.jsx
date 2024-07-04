@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import {Routes, Route, BrowserRouter} from 'react-router-dom'
 
 import Header from './components/Header'
-import {routerList} from './routes/router'
+import { routerList } from './routes/router'
 
 
 import './assets/styles/index.css'

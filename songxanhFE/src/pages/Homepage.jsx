@@ -11,8 +11,7 @@ import memory from '../assets/svg-icons/memory.svg'
 import setting1 from '../assets/svg-icons/setting1.svg'
 import more from '../assets/svg-icons/more.svg'
 
-
-export default function Homepage() {
+const Homepage = () => {
   return (
     <div className='flex gap-[10px] w-[1420px]'>
         <aside className=" bg-white w-[350px] m-[10px] p-[20px] rounded-[6px] basic-shadow">
@@ -61,3 +60,5 @@ export default function Homepage() {
     </div>
   )
 }
+
+export default Homepage
