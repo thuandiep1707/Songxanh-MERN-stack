@@ -12,6 +12,8 @@ import setting1 from '../assets/svg-icons/setting1.svg'
 import more from '../assets/svg-icons/more.svg'
 
 const Homepage = () => {
+  const test = import.meta.env.VITE_TEST
+  console.log(test)
   return (
     <div className='flex gap-[10px] w-[1420px]'>
         <aside className=" bg-white w-[350px] m-[10px] p-[20px] rounded-[6px] basic-shadow">

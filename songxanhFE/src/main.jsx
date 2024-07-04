@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <main className='flex flex-col items-center w-[100%]'>
             <Routes>
                 {
-                    routerList?.map((item, key) => <Route path={item.path} element={item.element} key={key}/>)
+                    routerList.map((item, key) => <Route path={item.path} element={<item.element/>} key={key}/>)
                 }
             </Routes>
         </main>
