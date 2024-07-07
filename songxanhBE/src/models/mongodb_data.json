@@ -1,0 +1,62 @@
+{
+    "users": [
+        {
+            "_id": "1",
+            "username": "us01",
+            "email": "us01@example.com",
+            "password": "hashed_password",
+            "profile": {
+                "name": "User 01",
+                "bio": "Short bio",
+                "avatar": "url_to_avatar"
+            },
+            "friends": [
+                "3",
+                "5"
+            ],
+            "created_at": "2023-07-01T00:00:00Z"
+        },
+        {
+            "_id": "2",
+            "username": "us02",
+            "email": "us02@example.com",
+            "password": "hashed_password",
+            "profile": {
+                "name": "User 02",
+                "bio": "Short bio",
+                "avatar": "url_to_avatar"
+            },
+            "friends": [
+                "7",
+                "4"
+            ],
+            "created_at": "2023-07-01T00:00:00Z"
+        }
+    ],
+    "posts": [
+        {
+            "_id": "21",
+            "user_id": "3",
+            "title": "Post by us03",
+            "content": "This is the content of the post by us03.",
+            "tags": [
+                "tag1",
+                "tag2"
+            ],
+            "created_at": "2023-07-01T00:00:00Z",
+            "updated_at": "2023-07-01T00:00:00Z"
+        },
+        {
+            "_id": "22",
+            "user_id": "5",
+            "title": "Post by us05",
+            "content": "This is the content of the post by us05.",
+            "tags": [
+                "tag1",
+                "tag2"
+            ],
+            "created_at": "2023-07-01T00:00:00Z",
+            "updated_at": "2023-07-01T00:00:00Z"
+        }
+    ]
+}
